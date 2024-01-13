@@ -2,13 +2,13 @@
 
 ## Overview
 
-neo-voice-link is a sophisticated voice assistant application that integrates Twilio's communication capabilities, OpenAI's Whisper and GPT-3.5 models, and ElevenLabs' text-to-speech technology. This combination creates an interactive and intelligent voice-based experience over phone calls, enabling users to engage in conversations with an AI-powered assistant.
+neo-voice-link is a sophisticated voice assistant application that integrates Twilio's communication capabilities, OpenAI's Whisper and GPT models, and ElevenLabs' text-to-speech technology. This combination creates an interactive and intelligent voice-based experience over phone calls, enabling users to engage in conversations with an AI-powered assistant.
 
 ## Features
 
 - **Telephony Integration**: Uses Twilio for handling voice calls, allowing users to interact with the assistant via phone.
 - **Voice-to-Text Conversion**: Leverages OpenAI's Whisper model to accurately transcribe user speech into text.
-- **AI-Powered Chatbot**: Employs OpenAI's GPT-3.5 model to generate contextually relevant and coherent responses.
+- **AI-Powered Chatbot**: Employs OpenAI's GPT model to generate contextually relevant and coherent responses.
 - **Text-to-Voice Conversion**: Utilizes ElevenLabs' advanced text-to-speech technology to provide natural-sounding voice responses.
 - **Conversation Context Management**: Maintains a conversation history for each session to ensure continuity and context in interactions.
 
