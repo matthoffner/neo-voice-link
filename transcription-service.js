@@ -10,7 +10,7 @@ class TranscriptionService extends EventEmitter {
     this.deepgramLive = deepgram.transcription.live({
       encoding: "mulaw",
       sample_rate: "8000",
-      model: "nova",
+      model: "nova-2-phonecall",
       punctuate: true,
       interim_results: false,
     });

@@ -142,7 +142,7 @@ app.ws("/connection", (ws, req) => {
 async function chat(messages) {
   const chatCompletion = await openai.chat.completions.create({
     messages: messages,
-    model: "gpt-3.5-turbo",
+    model: "gpt-4",
   });
   return chatCompletion.choices[0].message;
 }
